@@ -1,5 +1,5 @@
 function CloudVisionAPI(fileId) {
-  var apiKey = PropertiesService.getScriptProperties().getProperty('API_KEY');
+  var apiKey = '{{API_KEY}}';
   if (!apiKey) {
     throw new Error('API Key not set. Please set it using the setApiKey function.');
   }
