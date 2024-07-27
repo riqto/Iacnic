@@ -1,5 +1,5 @@
 function CloudVisionAPI(fileId) {
-  var apiKey = '{{API_KEY}}';
+  var apiKey = 'AIzaSyBG_KlNhN9dfszG6_TNxp5dVwmwkigVA74';
   var image = DriveApp.getFileById(fileId).getBlob();
   
   try {
