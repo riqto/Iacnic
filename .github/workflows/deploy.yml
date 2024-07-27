@@ -1,0 +1,21 @@
+name: Deploy with API Key
+
+on:
+  push:
+    branches: [ main ]  # Trigger on push to main branch
+  workflow_dispatch:    # Allow manual trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Use API Key
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
+      run: |
+        echo "Using API Key securely"
+        # Here you would use $API_KEY in your deployment script
+        # For example:
+        # node deploy-script.js $API_KEY
