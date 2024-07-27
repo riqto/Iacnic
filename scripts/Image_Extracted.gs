@@ -1,5 +1,8 @@
 function CloudVisionAPI(fileId) {
-  var apiKey = 'AIzaSyBG_KlNhN9dfszG6_TNxp5dVwmwkigVA74';
+  var apiKey = PropertiesService.getScriptProperties().getProperty('API_KEY');
+  if (!apiKey) {
+    throw new Error('API Key not set. Please set it using the setApiKey function.');
+  }
   var image = DriveApp.getFileById(fileId).getBlob();
   
   try {
