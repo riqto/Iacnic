@@ -5,7 +5,7 @@
 - Purpose: Contains data used by the Apps Script.
 
 ## Google Form
-- Form Link: [Google Form](https://docs.google.com/forms/d/1oih6n4dyGvgiZbzHWDtI0hel6gOflwfn4PpunLUh_aU/edit)
+- Form Link: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfkcJ8zcxkErF39ssgpCXMBO188IHOLRFEi8r7LpQn7gLBrew/viewform?usp=sf_link)
 - Purpose: Collects user input that feeds into the Google Sheet.
 
 ## Apps Script
