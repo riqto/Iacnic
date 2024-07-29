@@ -19,7 +19,41 @@
 - Deployment Instructions: How to deploy or update the web app.
 
 ## Setup Instructions
-1. Import the Google Sheet into your Google Drive.
-2. Link the Google Form to the Google Sheet.
-3. Deploy the Apps Script project.
-4. Configure and test the Web App.
+1. **Clone the Repository**
+   Clone this repository to your local machine:
+   *git clone https://github.com/riqto/Iacnic_AutomatedReceiptGeneration.git*
+
+2. **Navigate to the Project Directory**
+   Change to the directory containing your Apps Script files:
+   *cd repository/receipt-automation-script*
+   
+3. **Install and Authenticate CLASP**
+   CLASP (Command Line Apps Script Projects) is a tool for managing Google Apps Script projects from the command line.
+   Install CLASP globally using npm:
+   *npm install -g @google/clasp*
+   Authenticate CLASP with your Google account:
+   *clasp login*
+
+5. **Pull and Deploy the Apps Script Files**
+   Deploy the Apps Script project to make it executable:
+   *clasp pull*
+   Deploy the Apps Script project to make it executable:
+   *clasp deploy*
+   Open the Google Apps Script editor in your browser to make changes or test your script:
+   *clasp open*
+
+6. **Import the Google Sheet**
+   - Upload the *ReceiptAutomation.xlsx* file to your Google Drive.
+   - You can do this by dragging the file into your Google Drive or using the "New" button to upload the file from your local machine.
+
+8. **Link the Google Form to the Google Sheet**
+   - Open the Google Form linked to the project.
+   - Click on "Responses" and select "Create Spreadsheet."
+   - This action creates a new Google Sheet or links to an existing one, allowing data collected from the form to be stored in the Google Sheet.
+
+10. **Configure and Test the Web App**
+    - Ensure the Web App URL provided is correctly configured.
+    - Test the Web App to ensure it interacts properly with the data in the Google Sheet. You can open the Web App URL in a browser to verify its functionality.
+
+## Contributing
+Feel free to contribute to this project by making pull requests. Please ensure to follow the contribution guidelines and maintain the code quality.
