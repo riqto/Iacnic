@@ -9,7 +9,7 @@
 - Purpose: Collects user input that feeds into the Google Sheet.
 
 ## Apps Script
-- Location: `/scripts/`
+- Location: `/receipt-automation-script/`
 - Purpose: Contains the Google Apps Script code that interacts with the Google Sheet and the Web App.
 - How to deploy: Instructions for deploying the Apps Script.
 
