@@ -24,8 +24,7 @@
      *git clone https://github.com/riqto/Iacnic_AutomatedReceiptGeneration.git*
 
 2. **Navigate to the Project Directory**
-   - Change to the directory containing your Apps Script files:
-     *cd repository/receipt-automation-script*
+   - Change to the directory containing your Apps Script files.
    
 3. **Install and Authenticate CLASP**
    - CLASP (Command Line Apps Script Projects) is a tool for managing Google Apps Script projects from the command line.
@@ -34,7 +33,7 @@
    - Authenticate CLASP with your Google account:
      *clasp login*
 
-4. **Pull and Deploy the Apps Script Files**
+4. **Pull and Deploy the Existing Apps Script Files**
    - Deploy the Apps Script project to make it executable: *clasp pull*
    - Deploy the Apps Script project to make it executable: *clasp deploy*
    - Open the Google Apps Script editor in your browser to make changes or test your script: *clasp open*
