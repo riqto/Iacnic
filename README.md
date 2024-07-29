@@ -1,7 +1,7 @@
 # Project Repository
 
 ## Google Sheet
-- Location: `/sheets/your-sheet.xlsx`
+- Location: `/sheets/ReceiptAutomation.xlsx`
 - Purpose: Contains data used by the Apps Script.
 
 ## Google Form
